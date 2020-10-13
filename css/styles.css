@@ -8,22 +8,25 @@ h1, h2, h3 {
 
 h2 {
     color: #3046C5;
+
 }
 
+header h1 {
+    font-size: 120px;
+}
 header h2 {
-    color: #CEC8FF;
+    color: #20cce2;
+    font-size: 50px;
 }
 
 footer {
-    background-image: linear-gradient(#fbffc8, white);
+    background-image: linear-gradient(#ffd9c8, white);
     padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #e70d0d, #d6d329, #be6805);
-    color: white;
-    margin: 0;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .row-content {
@@ -31,6 +34,28 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-.navbar {
-    background-color: #1c90ad;
+
+.img-desk {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container-desk {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.row-desk {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.col-desk {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
