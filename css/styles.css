@@ -1,32 +1,7 @@
-body {
-    font-family: "Open Sans", sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
-
-h2 {
-    color: #3046C5;
-
-}
-
-header h1 {
-    font-size: 120px;
-}
-header h2 {
-    color: #20cce2;
-    font-size: 50px;
-}
-
-footer {
-    background-image: linear-gradient(#ffd9c8, white);
-    padding: 20px 0;
-}
-
 .jumbotron {
+    font-family: cursive;
     text-align: center;
-    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .row-content {
@@ -37,9 +12,6 @@ footer {
 
 .img-desk {
     max-width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 .container-desk {
@@ -58,4 +30,7 @@ footer {
     margin: 0;
     padding: 0;
     border: 0;
+}
+.card-mareo {
+    padding: 0;
 }
