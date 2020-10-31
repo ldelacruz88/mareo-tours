@@ -1,11 +1,11 @@
 body {
-    background-image: radial-gradient(white,rgba(177, 177, 139, 0.712),yellow);
+    background-image: radial-gradient(white,rgba(177, 177, 139, 0.712),rgb(224, 241, 124));
     font-family: cursive;
     margin: 0 auto; /* Center Website */
 }
 
 .jumbotron {
-    font-family: cursive;
+    font-family: fantasy;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
 }

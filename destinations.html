@@ -24,10 +24,9 @@
 
     <header class="jumbotron jumbotron-fluid">
         <h1>Mareo Tours</h1>
-        <h2>Experience Dominican Republic in a different way.</h2>
     </header>
 
-    <nav id="nav" class="navbar navbar-expand navbar-light fixed-top">
+    <nav id="nav" class="navbar navbar-expand navbar-light">
         <ul class="navbar-nav ml-auto"></ul>
         <ul class="navbar-nav navbar-brand">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -41,7 +40,7 @@
         <div class="row row-destination align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Fricolandia - Puerto Plata</h2>
-                    <button type="button" class="btn btn-lg btn-success">Book Now !</button>
+                    <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#fricolandiaModal">Book Now !</button>
             </div>
             <div class="col">
                 <div class="media">
@@ -114,7 +113,65 @@
             </div>
         </div>
     </div>
-
+<!-- Modals -->
+    <div class="modal fade" id="fricolandiaModal" tabindex="-1" role="dialog" aria-labelledby="fricolandiaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fricolandiaModalLabel">Fricolandia - Puerto Plata</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <img src="images/fricolandia-puertoplata.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="row">
+                            <h3>We can define Fricolandia as an earthly coast paradise. It is located in La Isabela, Puerto Plata, where the first colonial city was built on the first trip of Cristobal Colón.</h3>
+                        </div>
+                        <div class="row">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Email address</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="numOfGroup" class="col col-form-label">Group Size</label>
+                                    <div class="col">
+                                        <select name="numOfGroup" id="numOfGroup" class="form-control">
+                                            <option value="Select">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="date" class="col col-form-label">Date</label>
+                                    <div class="col">
+                                        <input type="date" class="form-control" id="date" name="date" placeholder="mm/dd/yyyy">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Reserve</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <footer class="site-footer">
     <div class="container">
