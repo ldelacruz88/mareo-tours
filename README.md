@@ -1,2 +1,0 @@
-# mareo-tours
-•	The site will host “Mareo Tour” whom are a real Ecotourism business located in the Dominican Republic, It will have the purpose of exposing to the business on the web, simple booking capabilities, possible cross collaboration with other related businesses for marketing, etc.
